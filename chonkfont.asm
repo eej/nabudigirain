@@ -1,0 +1,622 @@
+; fonts derived from emutyworks 8x8DotJPFont
+; https://github.com/emutyworks/8x8DotJPFont
+; Which itself is derived from Num Kadoma's Misaki font
+; http://littlelimit.net/misaki.htm
+
+/*
+The MIT License (MIT)
+
+Copyright (c) 2016 emutyworks
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-----------------------------------------------------------------------
+
+8×8 ドット日本語フォント「美咲フォント」
+8x8 dot Japanese font "Misaki font"
+http://littlelimit.net/misaki.htm
+
+These fonts are free softwares.
+Unlimited permission is granted to use, copy, and distribute it, with or without modification, 
+either commercially and noncommercially.
+THESE FONTS ARE PROVIDED "AS IS" WITHOUT WARRANTY.
+
+これらのフォントはフリー（自由な）ソフトウエアです。
+あらゆる改変の有無に関わらず、また商業的な利用であっても、自由にご利用、複製、再配布することができますが、
+全て無保証とさせていただきます。
+
+Copyright(C) 2002-2015 Num Kadoma
+*/
+
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+
+	db 00000000b
+	db 00011000b
+	db 00011000b
+	db 00011000b
+	db 00011000b
+	db 00011000b
+	db 00011000b
+	db 00000000b
+
+	db 00000000b
+	db 00011000b
+	db 00011000b
+	db 00000000b
+	db 00000000b
+	db 00011000b
+	db 00011000b
+	db 00000000b
+
+	db 01111110b
+	db 00000110b
+	db 00001100b
+	db 00011000b
+	db 00110000b
+	db 01100000b
+	db 01111110b
+	db 00000000b
+
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+
+	db 00011000b
+	db 00011000b
+	db 00011000b
+	db 11111110b
+	db 00011000b
+	db 00011000b
+	db 00011000b
+	db 00000000b
+
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 11111110b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+
+	db 00000000b
+	db 00000000b
+	db 11111110b
+	db 00000000b
+	db 11111110b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+
+	db 00000000b
+	db 00001100b
+	db 11111110b
+	db 00011000b
+	db 11111110b
+	db 01100000b
+	db 00000000b
+	db 00000000b
+
+	db 00000000b
+	db 00001110b
+	db 00111000b
+	db 11100000b
+	db 00111000b
+	db 00001110b
+	db 00000000b
+	db 00000000b
+
+	db 00000000b
+	db 11100000b
+	db 00111000b
+	db 00001110b
+	db 00111000b
+	db 11100000b
+	db 00000000b
+	db 00000000b
+
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00110000b
+	db 00110000b
+	db 00000000b
+
+	db 00000000b
+	db 00110000b
+	db 00110000b
+	db 00000000b
+	db 00110000b
+	db 00110000b
+	db 00000000b
+	db 00000000b
+
+	db 00111100b
+	db 01100110b
+	db 01100110b
+	db 01100110b
+	db 01100110b
+	db 01100110b
+	db 00111100b
+	db 00000000b
+
+	db 00011000b
+	db 00111000b
+	db 00011000b
+	db 00011000b
+	db 00011000b
+	db 00011000b
+	db 00111100b
+	db 00000000b
+
+	db 00111100b
+	db 01100110b
+	db 00000110b
+	db 00001100b
+	db 00110000b
+	db 01100000b
+	db 01111110b
+	db 00000000b
+
+	db 00111100b
+	db 01100110b
+	db 00000110b
+	db 00011100b
+	db 00000110b
+	db 01100110b
+	db 00111100b
+	db 00000000b
+
+	db 00001100b
+	db 00011100b
+	db 01101100b
+	db 01101100b
+	db 11001100b
+	db 11111110b
+	db 00001100b
+	db 00000000b
+
+	db 01111110b
+	db 01100000b
+	db 01111100b
+	db 01100110b
+	db 00000110b
+	db 01100110b
+	db 00111100b
+	db 00000000b
+
+	db 00111100b
+	db 01100110b
+	db 01100000b
+	db 01111100b
+	db 01100110b
+	db 01100110b
+	db 00111100b
+	db 00000000b
+
+	db 01111110b
+	db 00000110b
+	db 00001100b
+	db 00011000b
+	db 00011000b
+	db 00110000b
+	db 00110000b
+	db 00000000b
+
+	db 00111100b
+	db 01100110b
+	db 01100110b
+	db 00111100b
+	db 01100110b
+	db 01100110b
+	db 00111100b
+	db 00000000b
+
+	db 00111100b
+	db 01100110b
+	db 01100110b
+	db 00111110b
+	db 00000110b
+	db 01100110b
+	db 00111100b
+	db 00000000b
+
+	db 00111100b
+	db 00000000b
+	db 00111100b
+	db 01100110b
+	db 00000110b
+	db 00001100b
+	db 00111000b
+	db 00000000b
+
+	db 00001110b
+	db 01110110b
+	db 00001100b
+	db 00011000b
+	db 00011000b
+	db 00001100b
+	db 00000110b
+	db 00000000b
+
+	db 00110000b
+	db 00001100b
+	db 01100000b
+	db 01101100b
+	db 00110110b
+	db 00000110b
+	db 00111100b
+	db 00000000b
+
+	db 00111100b
+	db 00011000b
+	db 00110000b
+	db 00111100b
+	db 01100110b
+	db 00000110b
+	db 00111100b
+	db 00000000b
+
+	db 00000110b
+	db 00001100b
+	db 00011000b
+	db 00011000b
+	db 01101100b
+	db 00001100b
+	db 00001100b
+	db 00000000b
+
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 00111100b
+	db 00011000b
+	db 00011000b
+	db 01111110b
+	db 00000000b
+
+	db 00000000b
+	db 01111100b
+	db 00011000b
+	db 00011000b
+	db 00011000b
+	db 11111110b
+	db 00000000b
+	db 00000000b
+
+	db 00011000b
+	db 01111100b
+	db 00011000b
+	db 00011000b
+	db 01111110b
+	db 00001100b
+	db 00001100b
+	db 00000000b
+
+	db 01100000b
+	db 01111110b
+	db 01101100b
+	db 11001100b
+	db 00001100b
+	db 00011000b
+	db 00110000b
+	db 00000000b
+
+	db 00000000b
+	db 01111110b
+	db 00000110b
+	db 00000110b
+	db 00000110b
+	db 00000110b
+	db 01111110b
+	db 00000000b
+
+	db 00000000b
+	db 01111100b
+	db 00001100b
+	db 00011000b
+	db 00011000b
+	db 01101100b
+	db 11000110b
+	db 00000000b
+
+	db 00001100b
+	db 01110000b
+	db 00011000b
+	db 11111110b
+	db 00011000b
+	db 00011000b
+	db 00110000b
+	db 00000000b
+
+	db 00000000b
+	db 11100110b
+	db 11100110b
+	db 11011110b
+	db 00001100b
+	db 00011000b
+	db 00110000b
+	db 00000000b
+
+	db 00011000b
+	db 00011000b
+	db 11111110b
+	db 00011000b
+	db 00011000b
+	db 00110000b
+	db 01100000b
+	db 00000000b
+
+	db 00000000b
+	db 01111100b
+	db 00000000b
+	db 00000000b
+	db 00000000b
+	db 11111110b
+	db 00000000b
+	db 00000000b
+
+	db 01100000b
+	db 01100000b
+	db 01100110b
+	db 01111000b
+	db 01100000b
+	db 01100000b
+	db 00111110b
+	db 00000000b
+
+	db 01110000b
+	db 00001100b
+	db 00110000b
+	db 00011000b
+	db 00000000b
+	db 01110000b
+	db 00001100b
+	db 00000000b
+
+	db 00111100b
+	db 00011000b
+	db 00011000b
+	db 01111110b
+	db 00011000b
+	db 00011000b
+	db 00001110b
+	db 00000000b
+
+	db 01100000b
+	db 01101110b
+	db 11110110b
+	db 01101100b
+	db 00110000b
+	db 00110000b
+	db 00110000b
+	db 00000000b
+
+	db 00000000b
+	db 01111110b
+	db 00000110b
+	db 00111110b
+	db 00000110b
+	db 00000110b
+	db 01111110b
+	db 00000000b
+
+	db 00000000b
+	db 01111000b
+	db 00011000b
+	db 00011000b
+	db 00011000b
+	db 11111110b
+	db 00000000b
+	db 00000000b
+
+	db 00111100b
+	db 01100110b
+	db 01100000b
+	db 00110000b
+	db 00001100b
+	db 00000110b
+	db 01111110b
+	db 00000000b
+
+	db 00111100b
+	db 01100110b
+	db 01100000b
+	db 00111000b
+	db 01100000b
+	db 01100110b
+	db 00111100b
+	db 00000000b
+
+	db 01100000b
+	db 01110000b
+	db 01101100b
+	db 01100110b
+	db 01100110b
+	db 11111110b
+	db 01100000b
+	db 00000000b
+
+	db 01111110b
+	db 00000110b
+	db 00111110b
+	db 01100110b
+	db 01100000b
+	db 01100110b
+	db 00111100b
+	db 00000000b
+
+	db 00111100b
+	db 01100110b
+	db 00000110b
+	db 00111110b
+	db 01100110b
+	db 01100110b
+	db 00111100b
+	db 00000000b
+
+	db 01111110b
+	db 01100000b
+	db 00110000b
+	db 00011000b
+	db 00011000b
+	db 00001100b
+	db 00001100b
+	db 00000000b
+
+	db 00111100b
+	db 01100110b
+	db 01100110b
+	db 00111100b
+	db 01100110b
+	db 01100110b
+	db 00111100b
+	db 00000000b
+
+	db 00111100b
+	db 01100110b
+	db 01100110b
+	db 01111100b
+	db 01100000b
+	db 01100110b
+	db 00111100b
+	db 00000000b
+
+	db 00000110b
+	db 00001100b
+	db 01100110b
+	db 01101100b
+	db 00110000b
+	db 00011000b
+	db 00001110b
+	db 00000000b
+
+	db 00111110b
+	db 00000000b
+	db 01111111b
+	db 00011000b
+	db 00011000b
+	db 00011000b
+	db 00001100b
+	db 00000000b
+
+	db 01111110b
+	db 01100000b
+	db 01111100b
+	db 01100000b
+	db 00110000b
+	db 00011000b
+	db 00001100b
+	db 00000000b
+
+	db 00000000b
+	db 01111110b
+	db 01100000b
+	db 01100000b
+	db 00110000b
+	db 00011000b
+	db 00001100b
+	db 00000000b
+
+	db 00110110b
+	db 00110110b
+	db 00110110b
+	db 00110110b
+	db 00110000b
+	db 00011000b
+	db 00001100b
+	db 00000000b
+
+	db 00000000b
+	db 01111110b
+	db 01100110b
+	db 01100000b
+	db 00110000b
+	db 00011000b
+	db 00001100b
+	db 00000000b
+
+	db 01100110b
+	db 01111111b
+	db 01100110b
+	db 01100110b
+	db 01100000b
+	db 00110000b
+	db 00001100b
+	db 00000000b
+
+	db 00001100b
+	db 01111110b
+	db 01100110b
+	db 01100000b
+	db 00110000b
+	db 00011000b
+	db 00001100b
+	db 00000000b
+
+	db 00110000b
+	db 00110000b
+	db 00110000b
+	db 00011000b
+	db 00001100b
+	db 00000110b
+	db 00000011b
+	db 00000000b
+
+	db 00000000b
+	db 00111110b
+	db 00110000b
+	db 00011000b
+	db 00011000b
+	db 01101100b
+	db 11000011b
+	db 00000000b
+
+	db 00000000b
+	db 11011011b
+	db 11011011b
+	db 11011011b
+	db 01100000b
+	db 00110000b
+	db 00001100b
+	db 00000000b
+
+	db 00000110b
+	db 01111110b
+	db 00110110b
+	db 00110011b
+	db 00110000b
+	db 00011000b
+	db 00001100b
+	db 00000000b
+
