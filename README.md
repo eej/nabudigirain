@@ -1,10 +1,10 @@
-= Nabu Digital Rain
+# Nabu Digital Rain
 
-![Digital Rain Animated Gif](/Images/rain.gif?raw=true)
+![Digital Rain Animated Gif](Images/rain.gif?raw=true)
 
 A Digital Rain / Matrix demo for the Nabu PC
 
-== Features / Keys
+## Features & Keys
 * `c`     -- Toggle chonky or thin font
 * `+`/`-` -- Speed up or slow down the update speed
 * `r`     -- Reset/clear the screen
@@ -14,7 +14,7 @@ Available as a homebrew .nabu or a CP/M .com.
 
 If you have the hardware the F18A builds set a custom colour palette making the dark green darker and replacing white with a very bright green.  This isn't currently supported by emulators so you'll need real hardware to see it.
 
-== Building
+## Building
 
 Assemble with [sjasmplus](https://github.com/z00m128/sjasmplus).
 
@@ -24,7 +24,7 @@ Assemble with [sjasmplus](https://github.com/z00m128/sjasmplus).
 
 `-DCPM` will build a CP/M .com file.  `-DF18A` will build with F18A custom colour support.
 
-== Additional Credits and Thanks
+## Additional Credits and Thanks
 
 The random function is originally from [Aleksi Eeben's](http://www.cncd.fi/aeeben) 1K WHACK for the VIC20.  The z80 version used here is from [Deep Dungeon Adventure](https://github.com/artrag/Deep-Dungeon-Adventure) by ARTRAG, John Hassink and Huey of Trilobyte.  See random.asm for license information.
 
