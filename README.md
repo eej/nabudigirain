@@ -1,6 +1,6 @@
 # Nabu Digital Rain
 
-![Digital Rain Animated Gif](Images/rain.gif?raw=true)
+![Digital Rain Animated Gif](https://github.com/eej/nabudigirain/raw/master/images/rain.gif)
 
 A Digital Rain / Matrix demo for the Nabu PC
 
