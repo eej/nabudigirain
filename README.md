@@ -24,9 +24,9 @@ Assemble with [sjasmplus](https://github.com/z00m128/sjasmplus).
 
 `-DCPM` will build a CP/M .com file.  `-DF18A` will build with F18A custom colour support.
 
-## Additional Credits and Thanks
+## Additional Credits & Thanks
 
-The random function is originally from [Aleksi Eeben's](http://www.cncd.fi/aeeben) 1K WHACK for the VIC20.  The z80 version used here is from [Deep Dungeon Adventure](https://github.com/artrag/Deep-Dungeon-Adventure) by ARTRAG, John Hassink and Huey of Trilobyte.  See random.asm for license information.
+The random function is originally from Aleksi Eeben's 1K WHACK for the VIC20.  The z80 version used here is from [Deep Dungeon Adventure](https://github.com/artrag/Deep-Dungeon-Adventure) by ARTRAG, John Hassink and Huey of Trilobyte.  See random.asm for license information.
 
 The fonts are derived from emutyworks [8x8DotJPFont](https://github.com/emutyworks/8x8DotJPFont), which itself is derived from Num Kadoma's [Misaki font](http://littlelimit.net/misaki.htm).  See the font files for license information.
 
